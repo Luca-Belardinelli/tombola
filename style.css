@@ -5,21 +5,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    }
+}
 
 body{
     background-color: #17A494;
+    font-family: "Montserrat";
 }
 
 
 h1 {
-    font-family: "Gochi Hand", serif;
-    font-weight: 800;
     font-size: 80px;
-    font-style: normal;
     color: white;
     text-align: center;
     margin-top: 20px;
+    font-family: "Gochi Hand", serif;
   }
   
 
@@ -28,19 +27,65 @@ h1 {
 .container{
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
 .tombola{
     display: flex;
     flex-wrap: wrap;
-    width: 30%;
+    width: 40%;
+    margin-top: 20px;
 }
 
 
 .number{
-    font-size: 40px;
-    font-weight: 400;
+    font-size: 25px;
+    font-weight: bold;
     background-color: white;
     border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    margin: 7px;
+}
+
+/* numero estratto */
+
+#navigazione{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 40px;
+    gap: 10px;
+}
+
+/* schermo ultimo numero */
+#schermo{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+}
+
+hr{
+    width: 250px;
+    color: #B4FBFB;
+}
+
+#estrai{
+   padding: 10px 20px;
+   color: #effcfd;
+   background-color:#F8A102;
+   font-size: 12px;
+   font-weight: 800;
+   border: solid 1px black;
+   border-radius: 10px;
+}
+
+#termina{
+    padding: 10px 15px;
+    background-color: #864365;
+    color: #B3D1D2;
+    border: none;
+    border-radius: 10px;
+    font-weight: 800;
 }
